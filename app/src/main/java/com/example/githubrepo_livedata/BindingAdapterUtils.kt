@@ -13,4 +13,5 @@ fun loadImage(thumbimg : ImageView, url : String){
             .error(R.drawable.ic_launcher_foreground)
             .fallback(R.drawable.ic_launcher_foreground)
             .into(thumbimg)
+
     }
